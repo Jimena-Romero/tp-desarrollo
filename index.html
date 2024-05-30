@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/517fb4eb23.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="flex-container">
+        <form class="form" action="http://localhost:3000/guardar" method="post">
+            <div class="form__section">
+                <input type="email" class="form__input" name="email" placeholder="Email">
+            </div>
+
+            <div class="form__section">
+                <input type="text" class="form__input" name="asunto" placeholder="Asunto">
+            </div>
+
+            <div class="form__section">
+                <textarea class="form__input" name="mensaje" placeholder="Escriba su mensaje"></textarea>
+            </div>
+
+            <div class="form__section">
+                <input type="submit" class="form__input">
+            </div>
+        </form>
+
+        <div class="form-img">
+            <div class="img-container">
+                <div>
+                    <img src="C:\Users\hebem\Downloads\logoCorreo.png" style="max-width: 200px; max-height: 200px;">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
